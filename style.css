@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+  background: #f0f4f8;
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  background: #0a66c2;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  cursor: pointer;
+}
+
+.card .hidden {
+  display: none;
+  margin-top: 1rem;
+  color: #555;
+}
+
+.botao {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  background: #0a66c2;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
